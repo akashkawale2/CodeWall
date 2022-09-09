@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %} 
+<style>
+  
+</style>
+{% block body  %}
+<div class="p-4 p-md-5 mb-4 text-bg-dark">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="/about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/contact">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Career</a>
+    </li>
+  </ul>
+  
+  <div class="col-md-6 px-0">
+    <h1 class="display-4 fst-italic">Welcome to CodeWall</h1>
+    <p class="lead my-3">Learn to code with our beginner-friendly tutorials and examples. Read tutorials and examples, write programs, run code and learn to code.</p>
+    <p class="lead mb-0"><a href="/blog" class="text-white fw-bold">Continue reading...</a></p>
+  </div>
+</div> 
+<div class="text-center py-5">
+  <h1>Checkout our popular blog post</h1>
+</div>
+
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-bg-dark rounded-3">
+      <h2>Getting Started With C++</h2>
+      <p>C++ is a cross-platform language that can be used to create high-performance applications.</p>
+      <a href="/blog/Getting-Started-with-C++" class="btn btn-outline-light">Continue Reading</a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Getting Started with Python</h2>
+      <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+        It is used for:</p>
+        <a href="/blog/Getting-started-with-python" class="btn btn-outline-secondary">Continue Reading</a>
+    </div>
+  </div>
+</div>
+
+      
+  <div style="position: static !important;"></div></div>
+{% endblock body %}
